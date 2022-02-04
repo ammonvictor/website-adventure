@@ -1,88 +1,222 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.6.6/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.6.6/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.6.6/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
+    <title>Ammon Victor | Product Designer | Product Management</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Product Designer | User Research | UX/UI Designer | Data Analysis | Software Engineering"
+    />
+    <meta name="author" content="Ammon Victor" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      property="og:title"
+      content="Ammon Victor | Product Designer | Product Management"
+    />
+    <meta
+      property="og:description"
+      content="Product Designer | User Research | UX/UI Designer | Data Analysis | Software Engineering"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ammonvictor.com/" />
+    <meta
+      name="description"
+      content="Product Designer | User Research | UX/UI Designer | Data Analysis | Software Engineering"
+    />
+    <meta
+      name="keywords"
+      content="product, designer, management, user research, engineer, nairobi, kenya, data, analyst, css, r, rstudio, shiny, ui, ux, dashboard, gis, javascript, html, node, firebase, "
+    />
+    <base href="https://ammonvictor.com/" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .intro h1:before {
+        content: "Ammon";
       }
     </style>
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <!-- Navigation -->
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
+          >
+            <span class="logo">Ammon Victor</span>
+          </div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+      <div class="container">
+        <p>Hi, I’m Ammon</p>
+        <div class="units-row units-split wrap">
+          <div class="unit-20">
+            <img src="img/ava.jpg" alt="Avatar" />
+          </div>
+          <div class="unit-80">
+            <h1>I live in, Kenya, home of <br /><span id="typed"></span></h1>
+          </div>
+          <p>&nbsp;</p>
+          <p>
+            Helping organizations understand user motivations, behaviors and
+            goals to solve user pain points. Using User Research, Data and UI/UX
+            to help teams to design usable and understandable digital
+            applications in an agile and sustainable way.
+          </p>
+          <p>
+            Product Designer | User Research | UX/UI Designer | Data Analysis |
+            Software Engineering
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>Skills</h1>
+        <div class="skill-collection">
+          <ul class="skill-list list-flat">
+            <li>Design</li>
+            <li>Figma / Illustrator / Photoshop</li>
+          </ul>
+          <ul class="skill-list list-flat">
+            <li>Analysis</li>
+            <li>SQL / RStudio / Pandas</li>
+          </ul>
+          <ul class="skill-list list-flat">
+            <li>Software Engineering</li>
+            <li>HTML5 / CSS / Javascript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="quote">
+      <div class="container text-centered">
+        <h1>Product Management | Product Designer</h1>
+      </div>
+      <div class="container quote-attribution">
+        Photo by
+        <a
+          href="https://unsplash.com/@amani_nation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Amani Nation</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/nairobi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50">
+            <div class="attribution">
+              <img class="flag" src="img/kenya.png" alt="Kenya" />
+              <span>Crafted in Kenya</span>
+            </div>
+          </div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ammonvictor"
+                  target="_blank"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ammonvictor" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/ammonvictor" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://behance.net/vammon" target="_blank"
+                  ><i class="fa fa-behance"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      function newTyped() {}
+      $(function () {
+        $("#typed").typed({
+          strings: [
+            "Kipchoge ^1500",
+            "Sauti Sol ^1500",
+            "The Big Five ^1500",
+            "Lupita Nyong’o ^1500",
+            "Mbogi Genje ^1500",
+            "Nyashinki ^1500",
+            "Harambe Stars ^1500",
+            "Larry Madowo ^1500",
+            "Maasai Mara ^1500",
+            "Safaricom ^1500 &amp; ^1500 M-Pesa ^1000",
+            "Mt. Kenya ^1500",
+            "Ugali ^1500 &amp; ^1500 Nyama Choma ^1000",
+            "Utawezana ^1500",
+            "Tusker ^1500",
+            "Papa Jones ^1500",
+            "Mashujaa ^1500",
+          ],
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
+          typeSpeed: 70,
+          backDelay: 700,
+          contentType: "html",
+          loop: !0,
+          resetCallback: function () {
+            newTyped();
+          },
+        }),
+          $(".reset").click(function () {
+            $("#typed").typed("reset");
+          });
       });
     </script>
   </body>

@@ -1,0 +1,32 @@
+.intro h1 span {
+  font-size: 35px;
+}
+h1,
+.h1 {
+  font-size: 1.5em;
+}
+.skill-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quote-attribution,
+.quote-attribution a {
+  color: #ffffff;
+}
+
+.attribution {
+  display: flex;
+}
+
+.attribution .flag {
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  width: 30px;
+}
+
+@media (min-width: 767px) {
+  .skill-collection {
+    flex-direction: row;
+  }
+}
